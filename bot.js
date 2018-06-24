@@ -376,7 +376,7 @@ An gelir ruhumu alır sarmalarsın sıcacık bakışlara, an olur gark edersin s
 Gün gelir bir kıvılcım olur düşersin yüreklere, gün gelir büyürsün yangın olup talan edersin…
 Gün gelip yol alır senle yürekler umudun maviliklerinde, gün gelir alır yutarsın, kaybolur gider sevdalılar karanlığının derinliklerinde…`)
       }
-
+ });
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
