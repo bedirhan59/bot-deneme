@@ -380,19 +380,7 @@ An gelir ruhumu alır sarmalarsın sıcacık bakışlara, an olur gark edersin s
 Gün gelir bir kıvılcım olur düşersin yüreklere, gün gelir büyürsün yangın olup talan edersin…
 Gün gelip yol alır senle yürekler umudun maviliklerinde, gün gelir alır yutarsın, kaybolur gider sevdalılar karanlığının derinliklerinde…`)
       }
-bot.on('message', message => {
-	if (message.author.bot) return;
-	if (message.author.id == message.guild.owner.id) {
-		if (message.content === '/clear all') {
-			message.channel.fetchMessages().then(messages => messages.forEach(msg => msg.delete()));
-		} else if (message.content.match(/\/clear \d+/)) {
-			var limit = message.content.match(/\/clear (\d+)/)[1] + 1;
-			message.channel.fetchMessages({limit: limit}).then(messages => messages.forEach(msg => msg.delete()));
-		}
-	} else {
-		message.channel.send('?—?—???????????')
-}
-});
+
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
