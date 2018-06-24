@@ -1,8 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const moment = require('moment');
-require('moment-duration-format');
-
 let prefix = "+";//botun ön eki 
 let owner = "312307937949384715";// sizin id'niz
 
