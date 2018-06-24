@@ -18,14 +18,6 @@ message.channel.sendEmbed(new Discord.RichEmbed()
 .setColor("RANDOM"));
    }
 });
-
-bot.on('message', async msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    await msg.react(':regional_indicator_a:');
-    msg.react(':regional_indicator_s:');
-  }
-});
-
 bot.on("message", message => {
 if (message.content.toLowerCase() === prefix + "sunucuresmi") {
 message.channel.sendEmbed(new Discord.RichEmbed()
