@@ -15,7 +15,6 @@ client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
-});
 bot.on("message", async message => {
   if(message.author.bot) return;
   if(message.content.indexOf(prefix) !== 0) return;
