@@ -3,7 +3,6 @@ const client = new Discord.Client();
 let prefix = "+";//botun ön eki 
 let owner = "312307937949384715";// sizin id'niz
 
-bot.on("ready", () => {
     bot.user.setStatus('online');
     bot.user.setGame(`${prefix}yardım ${prefix}davet ? `, "https://www.twitch.tv/bedirhan_kuyucu");
     console.log("Bağlandım!")
