@@ -16,7 +16,6 @@ client.on('message', message => {
     	message.channel.send('benim 1 tane kardeşim');
   	}
 });
-
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
