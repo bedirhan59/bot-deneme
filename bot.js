@@ -28,7 +28,6 @@ client.on('message', message => {
     	message.channel.send('yakında eklecek');
   	}
 });
-
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
